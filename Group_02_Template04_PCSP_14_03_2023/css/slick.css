@@ -1,0 +1,134 @@
+
+.slick-arrow{
+  border-radius: 50%;
+  background:none;
+  border:0;
+  cursor: pointer;
+}
+.slick-prev,.slick-next{
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 43.5%;
+}
+.slick-prev{
+ left: 104px;
+}
+.slick-next{
+  right: 104px;
+}
+.slick-dots{
+  position: absolute;
+  left: 50%;
+  bottom: 29px;
+  z-index: 3;
+}
+.slick-dots li {
+  margin: 0 6px;
+  border-radius: 50%;
+  float: left;
+  transform: translateX(-39px);
+}
+.slick-dots button{
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #FF8800;
+   background-color: transparent;
+  border-radius: 50%;
+}
+.slick-active{
+  background-color: #FF8800;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  .slick-arrow{
+    border-radius: 50%;
+    background:none;
+    border:0;
+    cursor: pointer;
+  }
+  .slick-prev,.slick-next{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 43.5%;
+  }
+  .slick-prev{
+   left: 4.5%;
+  }
+  .slick-next{
+    right: 4.5%;
+  }
+  .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 8.5%;
+    z-index: 100;
+  }
+  .slick-dots li {
+    margin: 0 0.781vw;
+    border-radius: 50%;
+    float: left;
+    transform: translateX(-5.078vw);
+  }
+  .slick-dots li:last-child{
+    margin: 0;
+  }
+  .slick-dots button{
+    display: block;
+    width: 1.953vw;
+    height: 1.953vw;
+    border: 0.13vw solid #FF8800;
+     background-color: transparent;
+    border-radius: 50%;
+  }
+
+  
+}
+
+/*sp */
+@media screen and (max-width:767.9px) {
+  .slick-arrow{
+    border-radius: 50%;
+    background:none;
+    border:0;
+    cursor: pointer;
+  }
+  .slick-prev,.slick-next{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 41.7%;
+  }
+  .slick-prev{
+   left: 2%;
+  }
+  .slick-next{
+    right: 2%;
+  }
+  .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 9.5%;
+    z-index: 100;
+  }
+  .slick-dots li {
+    margin: 0 0.938vw;
+    border-radius: 50%;
+    float: left;
+    transform: translateX(-6.094vw);
+  }
+  .slick-dots li:last-child{
+    margin: 0;
+  }
+  .slick-dots button{
+    display: block;
+    width: 2.344vw;
+    height: 2.344vw;
+    border: 0.156vw solid #FF8800;
+     background-color: transparent;
+    border-radius: 50%;
+  }
+}

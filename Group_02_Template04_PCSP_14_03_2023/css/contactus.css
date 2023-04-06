@@ -1,0 +1,148 @@
+/* ==================== Contact Us Section ====================== */
+.contact-us {
+  padding: 55px 0 47px;
+  background-color: #F7F7F7;
+}
+
+.contact-us .contact-txt-box {
+  width: 44%;
+  margin-bottom: 12px;
+}
+
+.contact-us .cmn-ttl {
+  margin-bottom: 35px;
+  font-size: 48px;
+}
+
+.contact-us .contact-txt-box .cmn-text {
+  line-height: 1.5;
+  padding-bottom: 26px;
+}
+
+.contact-us .contact-txt-box ul {
+  margin-bottom: 17px;
+  list-style-position: inside;
+}
+
+.contact-us .contact-txt-box ul li {
+  padding-bottom: 9px;
+  font-weight: 700;
+  list-style-type: disc;
+}
+
+.contact-us .contact-txt-box ul li span {
+  position: relative;
+  left: -12px;
+}
+
+.contact-us .contact-txt-box ul .color-blue {
+  color: var(--color-primary);
+}
+
+.contact-us .contact-txt-box .color {
+  color: #FF8800;
+}
+
+.contact-us .contact-info-box {
+  padding: 0 54px;
+}
+
+.contact-us .contact-info-box .contact-info-left {
+  float: left;
+  width: 48%;
+  padding: 34px 0 10px 41px;
+  background-color: var(--color-white);
+}
+
+.contact-us .contact-info-box .contact-info-left .mail {
+  margin-bottom: 30px;
+}
+
+.contact-us .contact-info-box .contact-info-left .mail .cmn-text {
+  padding-bottom: 10px;
+  color: #2E2E22;
+  font-weight: 700;
+}
+
+.contact-us .contact-info-box .contact-info-left .mail a:link {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.contact-us .contact-info-box .contact-info-right {
+  float: right;
+  width: 47.5%;
+  padding: 34px 0 65px 40px;
+  background-color: var(--color-white);
+}
+
+.contact-us .contact-info-box .contact-info-right .cmn-text {
+  padding-bottom: 32px;
+  color: #2E2E22;
+  font-weight: 700;
+}
+
+.contact-us .contact-info-box .contact-info-right .address-box {
+  margin-bottom: 24px;
+}
+
+.contact-us .contact-info-box .contact-info-right .address-box .cmn-text {
+  padding-bottom: 8px;
+  font-weight: 400;
+}
+
+/* ============================ iPad ====================*/
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .contact-us {
+    padding: 6.771vw 5.208vw;
+  }
+
+  .contact-us .contact-txt-box {
+    width: 67.188vw;
+    margin-bottom: 2.995vw;
+
+  }
+
+  .contact-us .contact-info-box .contact-info-left {
+    float: none;
+    width: 67.188vw;
+    margin: 0 auto;
+    margin-bottom: 5.208vw;
+  }
+
+  .contact-us .contact-info-box .contact-info-right {
+    float: none;
+    width: 67.188vw;
+    margin: 0 auto;
+    padding: 4.427vw 0 8.464vw 6.12vw;
+  }
+
+}
+
+@media screen and (max-width: 767.9px) {
+  .contact-us {
+    padding: 17.969vw 3.125vw 10.938vw 3.125vw;
+  }
+
+  .contact-us .contact-txt-box {
+    width: 80.313vw;
+    margin-bottom: 1.406vw;
+  }
+
+  .contact-us .contact-txt-box ul {
+    margin-bottom: 3.125vw;
+  }
+
+  .contact-us .contact-info-box .contact-info-left {
+    float: none;
+    width: 80.625vw;
+    margin: 0vw 0vw 6.25vw -2.031vw;
+  }
+
+  .contact-us .contact-info-box .contact-info-right {
+    float: none;
+    width: 80.625vw;
+    margin-left: -2.031vw;
+    padding: 5.313vw 0 10.156vw 7.344vw;
+  }
+}
